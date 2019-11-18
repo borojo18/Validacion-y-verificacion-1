@@ -16,13 +16,13 @@ public class minimoComunMultiplo {
 
         }
         //Evaluara el numero mayor
-        if(num[0]>num[1] && num[0]>num[2]){
+        if(num[0]>num[1] && num[0]>num[5]){
             System.out.println("El mayor es "+ num[0]);
             mayor = num[0];
-        }else if(num[1]>num[0] && num[1]>num[2]){
+        }else if(num[1]>num[0] && num[2]>num[1]){
             System.out.println("El mayor es "+ num[1]);
             mayor = num[1];
-        }else if(num[2]>num[0] && num[2]>num[1]){
+        }else if(num[2]>num[0] && num[3]>num[1]){
             System.out.println("El mayor es "+ num[2]);
             mayor = num[2];
         }else{
